@@ -76,18 +76,19 @@ a.active,a:hover{
     
 
 div{
-    width:800px ;
-    left: 30%;
+    width: 90%;
+    max-width: 800px;
     background-color: rgb(175, 199, 180);
     box-shadow: 5px 5px 25px #0000005f;
     border-radius: 20px;
-    position: relative;
-    margin: 1270px;
+    margin: 90px auto;
     text-align: center;
     height: auto;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 90px;
+    padding: 20px;
     
  }
 
