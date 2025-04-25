@@ -1,0 +1,259 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+body {
+    background: linear-gradient(50deg,#f2ca06,rgb(100, 58, 58),#b9a9a9,#48350f);
+    background-size: 300% 300%;
+    animation: color 8s ease-in-out infinite;}
+
+@keyframes color{
+    0%{
+        background-position: 0 50% ;
+    }
+    50%{
+        background-position:100% 50% ;
+    }100%{
+        background-position: 0 50% ;
+    }
+}    
+
+img{
+    height: auto;
+    width: 100%;
+}
+
+nav{
+    overflow: auto;
+    background-color: rgb(56, 63, 57);
+    height: 60px;
+    width: 100%;
+}
+
+label.logo{
+    color: rgb(205, 175, 54);
+    text-shadow:2px 2px 8px #a8750e;
+    font-size: 35px;
+    line-height: 50px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+
+nav ul{
+    float: right;
+    margin: right 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: rgb(205, 175, 54);
+    text-shadow:2px 2px 8px #e29f1a;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+   
+    background: #6b4444;
+    transition: .5s;
+}
+
+.logo img{
+    position: absolute;
+    width: 5%;
+    height: 70px;
+    left: 1%;
+    
+
+}
+
+
+header{
+    text-align: center;
+
+}
+
+
+.container{
+    display: grid;
+    column-gap: 2em;
+    column-gap:0 ;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 7em;
+    width: 90vw;
+    height: auto;
+    margin: 50px;
+    padding: 0;
+
+    
+}
+.grid-wrapper{
+    gap: 10px;
+    margin: auto;;
+    width: 39%;
+    height: 20em;
+    background-color:#b18787 ;
+    box-shadow: 5px 5px 25px #0000005f;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 10px;
+   
+
+}
+a{
+    text-decoration: none;
+    color: #eeeae9;
+}
+
+h2, h3, h4{
+    color: #f6f8f6;
+}
+h1{
+    text-align: center;
+    color: rgb(191, 187, 177);
+    text-shadow: 3px 3px 15px #e2b215;
+    font-size: 3rem;
+    margin: 0;
+
+}
+
+h5, h6{
+    color: #eeeae9;
+}
+ 
+button{
+    padding: 10px 20px ;
+    background-color: rgb(85, 47, 47);
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #b6b1b1;
+    margin-top: 20px;
+    transition: 0.2s;
+    text-decoration: none;
+    
+
+}
+
+.banner-card{
+ position: relative;   
+}
+
+.banner-card img{
+    max-width: 100%;
+    height: auto;
+}
+
+.banne-text{
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    padding: 15px;
+}
+
+.banne-text h1{
+    font-size: 60px;
+    margin: 10px;
+}
+
+.banne-text h2{
+    color: rgb(191, 187, 177);
+    text-shadow: 5px 5px 25px #e2b215;
+    position: absolute;
+    font-size: 30px;
+    left:20%;
+    margin:3px ;
+}
+
+
+
+button:hover{
+    color: #eeeae9;
+    background-color: #040404;
+
+}
+
+h3{
+    color: black;
+    text-shadow: 3px 3px 20px #7b0a0a;
+    
+
+}
+h2, h4{
+color: blanchedalmond;
+text-shadow:3px 3px 20px #f00a0a;
+}
+
+@media(max-width:200vh){
+    .container{ 
+        height: auto;
+        width: 70%;
+       
+      }
+  
+      .div1,.div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10{
+          max-width: 170px;
+          padding: 8px;
+      }
+  
+      
+      .banner-card h2{
+          font-size: 1rem;
+          margin: 1.5rem;
+          
+      }
+  
+      h1, h2{
+          font-size: 15rem;
+          margin: 1.5;
+      }
+      .nav{
+          width: 70%;
+          height: 30%;
+          
+      }
+  
+      nav ul li a{
+      font-size: 12px;
+      border-radius: 1px;
+      }
+      
+      .banne-text h1{
+          font-size: 35px;
+          margin: 5px;
+  
+      }
+
+      .banne-text h2{
+        font-size: 10px;
+        margin: 1px;
+        left: 30%;
+      }
+
+     
+
+      label.logo{
+        font-size: 25px;
+        line-height: 18%;
+        padding: 0 10%;
+        
+      }
+
+      .logo img{
+        width: 8%;
+        height:auto ;
+      }
+
+     
+}

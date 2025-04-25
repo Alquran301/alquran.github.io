@@ -1,0 +1,169 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+body{
+    background: rgb(171, 166, 138);
+    background-size: 300% 300%;
+}
+
+@keyframes color{
+    0%{
+        background-position: 0 50% ;
+    }
+    50%{
+        background-position:100% 50% ;
+    }100%{
+        background-position: 0 50% ;
+    }
+}
+
+
+nav{
+    margin: 0px;
+    height: auto;
+    overflow: auto;
+    background-color: rgb(56, 63, 57);
+    position: relative;
+    
+}
+    
+label.logo{
+    left: 0%;
+    color: rgb(205, 175, 54);
+    text-shadow:2px 2px 8px #a8750e;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: bold;
+}
+    
+nav ul{
+    float: right;
+    margin: right 20px;
+}
+    
+nav ul li{
+    display: inline-block;
+    line-height: 25px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: rgb(205, 175, 54);
+    text-shadow:2px 2px 8px #e29f1a;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercas;
+}
+
+img{
+    width: 5%;
+    position: absolute;
+    left: 0%;
+}
+
+h1{
+    color: #3d1e1e;
+    text-align: center;
+    text-shadow:2px 2px 6px #511f1f;
+    position: relative;
+}
+
+a.active,a:hover{
+    background: #6b4444;
+    transition: .5s;
+}
+    
+
+div{
+    width:800px ;
+    left: 30%;
+    background-color: rgb(175, 199, 180);
+    box-shadow: 5px 5px 25px #0000005f;
+    border-radius: 20px;
+    position: relative;
+    margin: 1270px;
+    text-align: center;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 90px;
+    
+ }
+
+ h4{
+    text-align: center;
+    margin: 40px;
+}
+
+h2{
+    text-align: center;
+    position:relative;
+    size: 50%;
+    text-shadow:2px 2px 6px #6d4942;
+    margin: 30px;
+}
+
+hr{
+    margin: 40px ;
+
+}
+p{
+    text-align: center;
+    margin: 60px;
+}
+h3{
+    margin: 20px;
+}
+
+
+@media(max-width:1200px){
+    .container{
+        width: 75%;
+        height: auto;
+    }
+
+    .banner-card h2{
+        font-size: 1rem;
+        margin: 1.5rem;
+        
+    }
+
+   
+    .nav{
+        width: 70%;
+        height: 30%;
+        
+    }
+
+    nav ul li a{
+    font-size: 12px;
+    border-radius: 1px;
+    }
+    
+    .banne-text h1{
+        font-size: 35px;
+        margin: 5px;
+
+    }
+
+    .banne-text h2{
+      font-size: 10px;
+      margin: 1px;
+      left: 30%;
+    }
+
+   
+
+    label.logo{
+      font-size: 25px;
+      line-height: 18%;
+      padding: 0 10%;
+      
+    }
+
+    .logo img{
+      width: 8%;
+      height:auto ;
+    }
+}
