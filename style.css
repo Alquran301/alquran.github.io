@@ -202,7 +202,7 @@ text-shadow:3px 3px 20px #f00a0a;
        
       }
   
-      .div1,.div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10{
+      .grid-wrapper{
           max-width: 170px;
           padding: 8px;
       }
@@ -213,10 +213,18 @@ text-shadow:3px 3px 20px #f00a0a;
           margin: 1.5rem;
           
       }
+    .banner-text{
+        max-width: 700;
+    
+        
+      }
   
-      h1, h2{
-          font-size: 15rem;
-          margin: 1.5;
+      h2{
+          max-width: 776px;
+          font-size: 1rem;
+          margin: 1.5rem;
+          max-width: 480;
+          margin: 1rem
       }
       .nav{
           width: 70%;
@@ -240,7 +248,6 @@ text-shadow:3px 3px 20px #f00a0a;
         margin: 1px;
         left: 30%;
       }
-
      
 
       label.logo{
@@ -254,6 +261,73 @@ text-shadow:3px 3px 20px #f00a0a;
         width: 8%;
         height:auto ;
       }
+    @media screen and (max-width: 480px) {
+    label.logo {
+        font-size: 24px; /* Even smaller font for very small screens */
+    }
+
+    nav ul li a {
+        font-size: 12px; /* Adjust font size */
+        padding: 4px 8px;
+    }
+
+    .logo img {
+        width: 10%; /* Larger logo on small mobile screens */
+        height: 50px;
+        left: 5%;
+    }
+        h1{
+        max-width: 776px;
+        font-size: 1rem;
+        margin: 1.5rem;
+        max-width: 480;
+        margin: 1rem
+      }
+}
+    @media screen and (max-width: 480px) {
+    label.logo {
+        font-size: 24px; /* Even smaller font for very small screens */
+    }
+
+    nav ul li a {
+        font-size: 12px; /* Adjust font size */
+        padding: 4px 8px;
+    }
+
+    .logo img {
+        width: 10%; /* Larger logo on small mobile screens */
+        height: 50px;
+        left: 5%;
+    }
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2em;
+    }
+
+    .grid-wrapper {
+        width: 90%; 
+        height: auto;
+    }
+    
+    @media screen and (max-width: 768px) {
+        button {
+            padding: 8px 16px;
+            font-size: 0.9rem;
+        }
+    }
+    
+    /* Mobile screens */
+    @media screen and (max-width: 480px) {
+        button {
+            width: 100%;
+            padding: 10px 0;
+            font-size: 0.85rem;
+        }
+    }
 
      
 }
