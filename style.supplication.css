@@ -75,21 +75,21 @@ a.active,a:hover{
 }
     
 
-div{
-    width:1200px ;
-    left: 15%;
+div {
+    width: 90%;                 /* Flexible width */
+    max-width: 1200px;          /* Limits width on large screens */
+    margin: 90px auto;          /* Centers the div horizontally with top/bottom margin */
     background-color: rgb(175, 199, 180);
     box-shadow: 5px 5px 25px #0000005f;
     border-radius: 20px;
-    position: relative;
-    margin: 1270px;
     text-align: center;
     height: auto;
+    padding: 20px;              /* Adds inner spacing */
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 90px;
-    
- }
+}
 
  h4{
     text-align: center;
