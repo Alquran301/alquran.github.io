@@ -286,22 +286,6 @@ text-shadow:3px 3px 20px #f00a0a;
         margin: 1rem
       }
 }
-    @media screen and (max-width: 480px) {
-    label.logo {
-        font-size: 24px; /* Even smaller font for very small screens */
-    }
-
-    nav ul li a {
-        font-size: 12px; /* Adjust font size */
-        padding: 4px 8px;
-    }
-
-    .logo img {
-        width: 10%; /* Larger logo on small mobile screens */
-        height: 50px;
-        left: 5%;
-    }
-}
 
 /* Mobile Responsive Design */
 @media (max-width: 768px) {
