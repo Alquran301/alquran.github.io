@@ -109,6 +109,10 @@ header{
    
 
 }
+
+
+
+
 a{
     text-decoration: none;
     color: #eeeae9;
@@ -157,23 +161,15 @@ button{
 
 .banne-text{
     position: absolute;
-    left: 10px;
-    top: 25px;
+    left: 5px;
+    top: 2px;
     padding: 15px;
-}
-
-.banne-text h1{
-    font-size: 60px;
-    margin: 10px;
-}
-
-.banne-text h2{
     color: rgb(191, 187, 177);
     text-shadow: 5px 5px 25px #e2b215;
-    position: absolute;
-    font-size: 30px;
-    left:20%;
-    margin:3px ;
+    font-size: 2rem;
+    left:5%;
+    margin:2px
+
 }
 
 
