@@ -213,24 +213,24 @@ text-shadow:3px 3px 20px #f00a0a;
           margin: 1.5rem;
           max-width: 480px;
           margin: 1rem;
-          
       }
-    .banner-text{
-        max-width: 70px;
+      .banner-text{
+        max-width: 70opx;
         margin: 1rem;
         font-size: 1rem ;
 
-    
+
         
       }
   
-      h2{
-          max-width: 776px;
+     h2{
+        max-width: 776px;
           font-size: 1rem;
           margin: 1.5rem;
           max-width: 480;
           margin: 1rem
       }
+      
       .nav{
           width: 70%;
           height: 30%;
@@ -253,6 +253,7 @@ text-shadow:3px 3px 20px #f00a0a;
         margin: 1px;
         left: 30%;
       }
+
      
 
       label.logo{
@@ -266,10 +267,23 @@ text-shadow:3px 3px 20px #f00a0a;
         width: 8%;
         height:auto ;
       }
-    @media screen and (max-width: 480px) {
+
+      h1{
+        max-width: 776px;
+        font-size: 1rem;
+        margin: 1.5rem;
+        max-width: 480;
+        margin: 1rem
+      }
+
+
+     
+}
+@media screen and (max-width: 480px) {
     label.logo {
         font-size: 20px; /* Even smaller font for very small screens */
         margin-left: 5%;
+        
     }
 
     nav ul li a {
@@ -283,13 +297,6 @@ text-shadow:3px 3px 20px #f00a0a;
         height: 50px;
         left: 5%;
     }
-        h1{
-        max-width: 776px;
-        font-size: 1rem;
-        margin: 1.5rem;
-        max-width: 480;
-        margin: 1rem
-      }
 }
 
 /* Mobile Responsive Design */
@@ -303,7 +310,7 @@ text-shadow:3px 3px 20px #f00a0a;
         width: 90%; 
         height: auto;
     }
-    
+
     @media screen and (max-width: 768px) {
         button {
             padding: 8px 16px;
@@ -319,6 +326,4 @@ text-shadow:3px 3px 20px #f00a0a;
             font-size: 0.85rem;
         }
     }
-
-     
 }
